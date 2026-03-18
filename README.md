@@ -46,6 +46,9 @@ Cuenta con niveles de acceso y contraseñas encriptadas.
 
 ## Vistas de la aplicación
 
+<img width="391" height="348" alt="image" src="https://github.com/user-attachments/assets/ffd43de3-94bf-4e56-9e05-25145ea465e7" />
+<img width="402" height="276" alt="image" src="https://github.com/user-attachments/assets/612a21fe-74c0-44aa-8fe5-5b63f081c553" />
+
 
 
 ---
