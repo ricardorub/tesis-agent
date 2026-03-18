@@ -13,7 +13,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL') or 'postg
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'your_secret_key_here'
 
-# Initialize DB
+# Initialize D
 db.init_app(app)
 
 # Register Blueprints
