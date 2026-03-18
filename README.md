@@ -26,13 +26,13 @@ El proyecto abarca backend, frontend, base de datos, modelos de lenguaje, embedd
 No es un simple chatbot. El usuario puede manejar múltiples sesiones y los títulos se generan automáticamente por el modelo según el tema de la consulta.
 
 ###  RAG sobre documentos propios
-Este sistema indexa PDFs académicos usando embeddings semánticos y los almacena en un índice faiss. Cuando el usuario hace una pregunta, el sistema recupera los fragmentos más relevantes y se los inyecta al LLM logrando respuestas precisas y fundamentadas en el contenido real de la tesis.
+Este sistema indexa PDFs usando embeddings semánticos y los almacena. Cuando el usuario hace una pregunta, el sistema recupera los fragmentos más relevantes y lo une al LLM logrando respuestas precisas y fundamentadas en el contenido real de la tesis.
 
 ### Dashboard analítico completo
-El panel de moderador muestra en tiempo real: evolución temporal de usuarios y chats, distribución por universidad, género, nivel académico y rango de edad, además de los resultados de satisfacción — todo en gráficos interactivos con Chart.js.
+El panel de moderador muestra en tiempo real la evolución temporal de usuarios y chats, universidad, género, nivel académico etc. Además resultados de satisfacción.
 
 ### Sistema de roles multicapa
-Cuenta con tres niveles de acceso como `user`, `moderator`, `administrator`, las contraseñas protegidas por bcrypt.
+Cuenta con niveles de acceso y contraseñas encriptadas.
 
 ---
 
@@ -52,6 +52,6 @@ Cuenta con tres niveles de acceso como `user`, `moderator`, `administrator`, las
 
 <div align="center">
 
-**Construido con curiosidad, café y muchas horas de creatividad** 
+**Construido con curiosidad, café y muchas horas de creatividad.** 
 
 </div>
