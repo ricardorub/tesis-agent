@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Asesoría de Tesis{% endblock %}</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- CSS extra que cada hijo puede inyectar -->
+    {% block extra_head %}{% endblock %}
+
+    <!-- Estilos propios de cada página -->
+    {% block styles %}{% endblock %}
+</head>
+<body>
+
+{% block body %}{% endblock %}
+
+<!-- Bootstrap JS (siempre presente) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scripts extra opcionales (p.ej. jQuery, Chart.js) -->
+{% block extra_scripts %}{% endblock %}
+
+<!-- Lógica JS propia de cada página -->
+{% block scripts %}{% endblock %}
+
+</body>
+</html>
