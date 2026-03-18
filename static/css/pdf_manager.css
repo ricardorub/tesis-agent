@@ -1,0 +1,153 @@
+/* Estilos modernos para gestión de PDFs */
+
+.pdf-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.pdf-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.pdf-card.border-success {
+    border-width: 2px !important;
+    background: linear-gradient(135deg, #f0fff4 0%, #ffffff 100%);
+}
+
+.pdf-upload-area {
+    border: 3px dashed #3498db;
+    border-radius: 15px;
+    padding: 3rem 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.pdf-upload-area:hover {
+    background: linear-gradient(135deg, #e3f2fd 0%, #f0f8ff 100%);
+    border-color: #2ecc71;
+    transform: scale(1.02);
+}
+
+.pdf-upload-area.dragover {
+    background: linear-gradient(135deg, #d4edda 0%, #e8f5e9 100%);
+    border-color: #28a745;
+    border-style: solid;
+}
+
+.pdf-upload-area i {
+    color: #3498db;
+    transition: all 0.3s ease;
+}
+
+.pdf-upload-area:hover i {
+    color: #2ecc71;
+    transform: scale(1.1);
+}
+
+#pdfListContent {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+#pdfListContent::-webkit-scrollbar {
+    width: 8px;
+}
+
+#pdfListContent::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+#pdfListContent::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #3498db, #2ecc71);
+    border-radius: 10px;
+}
+
+#pdfListContent::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #2980b9, #27ae60);
+}
+
+.pdf-info-box {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e9ecef;
+}
+
+.pdf-info-box h6 {
+    color: #495057;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.btn-group .btn {
+    transition: all 0.2s ease;
+}
+
+.btn-group .btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+}
+
+.set-active-btn {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    border: none;
+}
+
+.set-active-btn:hover {
+    background: linear-gradient(135deg, #2980b9, #1c5d99);
+}
+
+.modal-header {
+    border-bottom: 3px solid #e9ecef;
+}
+
+.progress {
+    height: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    font-weight: 600;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.pdf-card.border-success::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #2ecc71, #3498db);
+    border-radius: 15px;
+    z-index: -1;
+    opacity: 0.3;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.card-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.badge {
+    font-size: 0.75rem;
+    padding: 0.4em 0.8em;
+    font-weight: 600;
+}
