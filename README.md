@@ -8,7 +8,7 @@
 [![Flask](https://img.shields.io/badge/Flask-2.0+-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
-[![Cerebras](https://img.shields.io/badge/Cerebras_AI-FF6B35?style=for-the-badge&logo=ai&logoColor=white)](https://cerebras.ai)
+
 
 **Thesis Agent** es una aplicación web de asesoría académica que conecta estudiantes universitarios con un chatbot potenciado por IA. El asistente no solo responde preguntas generales: lee y comprende los documentos PDF de la tesis del usuario y da respuestas contextualizadas gracias a un RAG construido desde cero.
 
